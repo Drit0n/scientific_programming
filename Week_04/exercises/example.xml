@@ -1,0 +1,11 @@
+
+<bookstore>
+    <book>
+        <title>Harry Potter</title>
+        <author>J.K. Rowling</author>
+    </book>
+    <book>
+        <title>Lord of the Rings</title>
+        <author>J.R.R. Tolkien</author>
+    </book>
+</bookstore>
