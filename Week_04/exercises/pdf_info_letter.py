@@ -37,7 +37,7 @@ ptext = '%s' % formatted_time
 Story.append(Paragraph(ptext, styles["Normal"]))
 Story.append(Spacer(1, 24))
 
-# Create return address
+# Create return address 
 ptext = '%s' % full_name
 Story.append(Paragraph(ptext, styles["Normal"]))       
 for part in address_parts:

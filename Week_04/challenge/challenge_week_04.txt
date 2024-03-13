@@ -10,9 +10,10 @@ Switzerland and which are the 5 largest operators in terms of the total number
 of petrol stations. To solve the task you decide to use the following workflow:
 
 1.) You first look at the following website https://wiki.openstreetmap.org/wiki/Key:amenity
-    for the key:value pair which you can use to get data from OpenStretMap
+    for the key:value pair which you can use to get data from OpenStreetMap
  
 2.) Then you prepare a Jupyter notebook in which the overpass Web API is used to get the data
+pivot_table
     
 3.) You save the data in .json and .csv format on your local computer
 
@@ -21,3 +22,4 @@ of petrol stations. To solve the task you decide to use the following workflow:
 
 5.) Finally, you create a map to visualize all petrol stations in Switzerland
     In the map, use popups to provide the brand of the petrol stations.
+copilot for this OpenStretMap
