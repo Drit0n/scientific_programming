@@ -6,8 +6,9 @@
 	
 2.) From 'Init_Regist' extract the year of manufacture
     Hint: you can use the following command (note that 'df' is the name of the data frame)
-	
-	df['year'] = df['Init_Regist'].str.split('.').str[1].astype('Int32')
+
+	# Create a dictionary with all prices per year in df['year']
+	prices_per_year = df.groupby('year')['price'].apply(list).to_dict()
 
 3.) Calculate a new variable 'age_of_car' by using the current date
     Hint: you can use the following commands:
